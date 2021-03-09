@@ -1,10 +1,10 @@
-package com.shetty.Codec.Codecs;
+package com.shetty.Codec.Codec;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class CodecsApplicationTests {
+class CodecApplicationTests {
 
 	@Test
 	void contextLoads() {
