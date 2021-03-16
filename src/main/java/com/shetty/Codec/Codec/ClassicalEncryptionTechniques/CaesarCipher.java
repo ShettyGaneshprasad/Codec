@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 @RestController
 public class CaesarCipher{
 	
-	@GetMapping(path="/caesar/PT={plainText}/Kno={key}")
+	@GetMapping(path="/caesar/PT={plainText}/Keyno={key}")
 	public CipherResponseBean EncodeUsingCaesar(@PathVariable String plainText, @PathVariable Integer key) {
 
 	
