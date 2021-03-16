@@ -6,24 +6,19 @@ public class HomeBean {
 		super();
 	}
 	
-	String Domain="https://shetty-codec.herokuapp.com";
 	
-	String caesar_Encoding=Domain+"/caesar/PT={plainText}/Keyno={key}";
-	String Playfair_Encoding=Domain+"/playfair/PT={plainText}/Key={key}";
-	String Vigenere_Encoding=Domain+"/vigenere/PT={plainText}/Key={key}";
-	String Vigenere_Decoding=Domain+"/vigenere/ET={plainText}/Key={key}";
+	
+	String caesar_Encoding="https://shetty-codec.herokuapp.com/caesar/PT={plainText}/Keyno={key}";
+	String Playfair_Encoding="https://shetty-codec.herokuapp.com/playfair/PT={plainText}/Key={key}";
+	String Vigenere_Encoding="https://shetty-codec.herokuapp.com/vigenere/PT={plainText}/Key={key}";
+	String Vigenere_Decoding="https://shetty-codec.herokuapp.com/vigenere/ET={plainText}/Key={key}";
 	@Override
 	public String toString() {
-		return "HomeBean [Domain=" + Domain + ", caesar_Encoding=" +caesar_Encoding + ", Playfair_Encoding="
+		return "HomeBean [ caesar_Encoding=" +caesar_Encoding + ", Playfair_Encoding="
 				+ Playfair_Encoding + ", Vigenere_Encoding=" + Vigenere_Encoding + ", Vigenere_Decoding="
 				+ Vigenere_Decoding + "]";
 	}
-	public String getDomain() {
-		return Domain;
-	}
-	public void setDomain(String domain) {
-		Domain = domain;
-	}
+	
 	public String getCaesar_Encoding() {
 		return caesar_Encoding;
 	}
