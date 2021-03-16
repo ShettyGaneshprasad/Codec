@@ -9,7 +9,7 @@ import com.shetty.Codec.Codec.CipherResponseBean;
 @RestController
 public class VigenereCipher {
 	
-	@GetMapping(path="/vigenere/PT={plainText}/Kno={key}")
+	@GetMapping(path="/vigenere/PT={plainText}/Key={key}")
 	public CipherResponseBean EncodeUsingCaesar(@PathVariable String plainText, @PathVariable String key) {
 
 		
@@ -28,7 +28,7 @@ public class VigenereCipher {
 		
 	}
 	
-	@GetMapping(path="/vigenere/ET={EncryptedText}/Kno={key}")
+	@GetMapping(path="/vigenere/ET={EncryptedText}/Key={key}")
 	public CipherResponseBean DecodeUsingCaesar(@PathVariable String EncryptedText, @PathVariable String key) {
 
 	

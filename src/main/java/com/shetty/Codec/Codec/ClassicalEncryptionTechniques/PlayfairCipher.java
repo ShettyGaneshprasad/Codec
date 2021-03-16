@@ -15,7 +15,7 @@ import com.shetty.Codec.Codec.CipherResponseBean;
 @RestController
 public class PlayfairCipher {
 	
-	@GetMapping(path="/Playfair/PT={plainText}/Kno={key}")
+	@GetMapping(path="/playfair/PT={plainText}/Key={key}")
 	public CipherResponseBean EncodeUsingPlayfair(@PathVariable String plainText, @PathVariable String key) {
 
 		Playfair pfc1 = new Playfair(key, plainText); 
