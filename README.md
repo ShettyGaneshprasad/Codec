@@ -8,16 +8,16 @@ You can check documentation at https://shetty-codec.herokuapp.com/
 
 
 ## Features currently available 
-* Caesar Encoding ( https://shetty-codec.herokuapp.com/caesar/PT={plainText}/Keyno={key} ) 
+* Caesar Encoding ( https://shetty-codec.herokuapp.com/caesar/PT={plainText}/Keyno={key} ) <br />
   Example:- https://shetty-codec.herokuapp.com/caesar/PT=Plaintext/Keyno=1
   
-* Vigenere Encoding ( https://shetty-codec.herokuapp.com/vigenere/PT={plainText}/Key={key} )
+* Vigenere Encoding ( https://shetty-codec.herokuapp.com/vigenere/PT={plainText}/Key={key} )<br />
   Example:- https://shetty-codec.herokuapp.com/vigenere/PT=PlainText/Key=keyword
 
-* Vigenere Decoding ( https://shetty-codec.herokuapp.com/vigenere/ET={plainText}/Key={key} )
+* Vigenere Decoding ( https://shetty-codec.herokuapp.com/vigenere/ET={plainText}/Key={key} )<br />
   Example:- https://shetty-codec.herokuapp.com/vigenere/ET=EncryptedText/Key=keyword
   
-* Playfair_Encoding ( https://shetty-codec.herokuapp.com/playfair/PT={plainText}/Key={key} )
+* Playfair_Encoding ( https://shetty-codec.herokuapp.com/playfair/PT={plainText}/Key={key} )<br />
   Example:- https://shetty-codec.herokuapp.com/playfair/PT=PlainText/Key=sdmcet
 
 * And more will be added soon...
