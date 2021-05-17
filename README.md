@@ -37,9 +37,9 @@ Send us your valuable suggestion and feedback at:- shettyganeshprasad1998@gmail.
 
 <br /><br />
 ## Built With
-* <img src="https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg" width="150">  This API is developed using Java based framework Spring boot.
+* <img src="https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg" width="150">        This API is developed using Java based framework Spring boot.
 
-* <image src="https://www.fullstackpython.com/img/logos/heroku.png" width="150">  Deployed using Heroku. Heroku is a cloud platform as a service.
+* <image src="https://www.fullstackpython.com/img/logos/heroku.png" width="150">        Deployed using Heroku. Heroku is a cloud platform as a service.
   
 
 <br /><br />
