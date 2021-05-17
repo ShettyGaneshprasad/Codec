@@ -4,7 +4,7 @@
 <br />
 This API can be used by any developer in their application to encrypt or decrypt data with their own key. <br />
 This API is developed using Java based framework Spring boot. You will get output in JSON format.<br />
-You can check documentation at https://shetty-codec.herokuapp.com/<br />
+You can check documentation at https://shetty-codec.herokuapp.com <br />
 
 
 
