@@ -1,7 +1,7 @@
 # Codec. 
 [![Codemagic build status](https://api.codemagic.io/apps/5ef882f17901d826c18a2e65/5ef882f17901d826c18a2e64/status_badge.svg)]()
 
-<br />
+
 This API can be used by any developer in their application to encrypt or decrypt data with their own key. <br />
 This API is developed using Java based framework Spring boot. You will get output in JSON format.<br />
 You can check documentation at https://shetty-codec.herokuapp.com <br />
